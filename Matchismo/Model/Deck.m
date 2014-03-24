@@ -43,7 +43,7 @@
     Card * randomCard = nil;
     if ([self.cards count])
     {
-        NSLog(@"Card count = %d", [self.cards count]);
+        NSLog(@"Card count = %lu", (unsigned long)[self.cards count]);
         int returnIndex = arc4random() % [self.cards count];
         NSLog(@"Random card index generated was %d", returnIndex);
         randomCard = self.cards[returnIndex];

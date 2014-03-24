@@ -112,6 +112,7 @@
 		32EABE7318DF6AA000D5EDC6 /* Matchismo v2 */ = {
 			isa = PBXGroup;
 			children = (
+				32EABEA218DF6AFD00D5EDC6 /* Model */,
 				32EABE7C18DF6AA000D5EDC6 /* CardGameAppDelegate.h */,
 				32EABE7D18DF6AA100D5EDC6 /* CardGameAppDelegate.m */,
 				32EABE7F18DF6AA100D5EDC6 /* Main.storyboard */,
@@ -150,6 +151,13 @@
 				32EABE9518DF6AA100D5EDC6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32EABEA218DF6AFD00D5EDC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

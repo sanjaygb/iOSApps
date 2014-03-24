@@ -14,6 +14,12 @@
 
 @implementation CardGameViewController
 
+
+- (IBAction)touchCardButton:(UIButton *)sender {
+    
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

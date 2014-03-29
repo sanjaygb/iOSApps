@@ -385,6 +385,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Matchismo v2/Matchismo v2-Prefix.pch";
 				INFOPLIST_FILE = "Matchismo v2/Matchismo v2-Info.plist";
@@ -398,6 +402,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Matchismo v2/Matchismo v2-Prefix.pch";
 				INFOPLIST_FILE = "Matchismo v2/Matchismo v2-Info.plist";
@@ -465,6 +473,7 @@
 				32EABE9E18DF6AA100D5EDC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32EABE9F18DF6AA100D5EDC6 /* Build configuration list for PBXNativeTarget "Matchismo v2Tests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +482,7 @@
 				32EABEA118DF6AA100D5EDC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

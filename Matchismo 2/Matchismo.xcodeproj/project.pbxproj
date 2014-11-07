@@ -17,22 +17,11 @@
 		329882561A017C11005C184A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329882541A017C11005C184A /* Main.storyboard */; };
 		329882581A017C11005C184A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329882571A017C11005C184A /* Images.xcassets */; };
 		3298825B1A017C11005C184A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329882591A017C11005C184A /* LaunchScreen.xib */; };
-		329882671A017C12005C184A /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 329882661A017C12005C184A /* MatchismoTests.m */; };
 		3298827A1A01B597005C184A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 329882791A01B597005C184A /* Card.m */; };
 		32B0930C1A05A29600B1E1AE /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B093081A05A29600B1E1AE /* PlayingCardDeck.m */; };
 		32B0930D1A05A29600B1E1AE /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0930A1A05A29600B1E1AE /* PlayingCard.m */; };
 		32B0930F1A05A2E700B1E1AE /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0930E1A05A2E700B1E1AE /* Deck.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		329882611A017C12005C184A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3298823F1A017C11005C184A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 329882461A017C11005C184A;
-			remoteInfo = Matchismo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		322477251A0556B3006A9F44 /* CRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRFilter.h; sourceTree = "<group>"; };
@@ -43,7 +32,7 @@
 		3224772C1A055710006A9F44 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		327039231A05A04200F0FB8C /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = ../Model/CardMatchingGame.h; sourceTree = "<group>"; };
 		327039241A05A04200F0FB8C /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = ../Model/CardMatchingGame.m; sourceTree = "<group>"; };
-		329882471A017C11005C184A /* Matchismon 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matchismon 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		329882471A017C11005C184A /* Matchismo 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matchismo 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3298824B1A017C11005C184A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3298824C1A017C11005C184A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3298824E1A017C11005C184A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,7 +42,6 @@
 		329882551A017C11005C184A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		329882571A017C11005C184A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3298825A1A017C11005C184A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		329882601A017C12005C184A /* MatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		329882651A017C12005C184A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		329882661A017C12005C184A /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
 		329882781A01B597005C184A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Model/Card.h; sourceTree = "<group>"; };
@@ -73,13 +61,6 @@
 			files = (
 				3224772D1A055710006A9F44 /* SystemConfiguration.framework in Frameworks */,
 				3224772B1A0556B3006A9F44 /* libCrittercism_v4_3_1.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3298825D1A017C12005C184A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,8 +93,7 @@
 		329882481A017C11005C184A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				329882471A017C11005C184A /* Matchismon 2.app */,
-				329882601A017C12005C184A /* MatchismoTests.xctest */,
+				329882471A017C11005C184A /* Matchismo 2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,16 +143,16 @@
 		329882741A01AD21005C184A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				32B093101A05A2F400B1E1AE /* Deck.h */,
-				32B0930E1A05A2E700B1E1AE /* Deck.m */,
-				32B093081A05A29600B1E1AE /* PlayingCardDeck.m */,
-				32B093091A05A29600B1E1AE /* PlayingCardDeck.h */,
-				32B0930A1A05A29600B1E1AE /* PlayingCard.m */,
-				32B0930B1A05A29600B1E1AE /* PlayingCard.h */,
 				329882781A01B597005C184A /* Card.h */,
+				329882791A01B597005C184A /* Card.m */,
 				327039231A05A04200F0FB8C /* CardMatchingGame.h */,
 				327039241A05A04200F0FB8C /* CardMatchingGame.m */,
-				329882791A01B597005C184A /* Card.m */,
+				32B093101A05A2F400B1E1AE /* Deck.h */,
+				32B0930E1A05A2E700B1E1AE /* Deck.m */,
+				32B0930B1A05A29600B1E1AE /* PlayingCard.h */,
+				32B0930A1A05A29600B1E1AE /* PlayingCard.m */,
+				32B093091A05A29600B1E1AE /* PlayingCardDeck.h */,
+				32B093081A05A29600B1E1AE /* PlayingCardDeck.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -180,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		329882461A017C11005C184A /* Matchismon 2 */ = {
+		329882461A017C11005C184A /* Matchismo 2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3298826A1A017C12005C184A /* Build configuration list for PBXNativeTarget "Matchismon 2" */;
+			buildConfigurationList = 3298826A1A017C12005C184A /* Build configuration list for PBXNativeTarget "Matchismo 2" */;
 			buildPhases = (
 				329882431A017C11005C184A /* Sources */,
 				329882441A017C11005C184A /* Frameworks */,
@@ -193,28 +173,10 @@
 			);
 			dependencies = (
 			);
-			name = "Matchismon 2";
+			name = "Matchismo 2";
 			productName = Matchismo;
-			productReference = 329882471A017C11005C184A /* Matchismon 2.app */;
+			productReference = 329882471A017C11005C184A /* Matchismo 2.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3298825F1A017C12005C184A /* MatchismoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3298826D1A017C12005C184A /* Build configuration list for PBXNativeTarget "MatchismoTests" */;
-			buildPhases = (
-				3298825C1A017C12005C184A /* Sources */,
-				3298825D1A017C12005C184A /* Frameworks */,
-				3298825E1A017C12005C184A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				329882621A017C12005C184A /* PBXTargetDependency */,
-			);
-			name = MatchismoTests;
-			productName = MatchismoTests;
-			productReference = 329882601A017C12005C184A /* MatchismoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -227,10 +189,6 @@
 				TargetAttributes = {
 					329882461A017C11005C184A = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					3298825F1A017C12005C184A = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 329882461A017C11005C184A;
 					};
 				};
 			};
@@ -247,8 +205,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				329882461A017C11005C184A /* Matchismon 2 */,
-				3298825F1A017C12005C184A /* MatchismoTests */,
+				329882461A017C11005C184A /* Matchismo 2 */,
 			);
 		};
 /* End PBXProject section */
@@ -262,13 +219,6 @@
 				3224772A1A0556B3006A9F44 /* dsym_upload.sh in Resources */,
 				3298825B1A017C11005C184A /* LaunchScreen.xib in Resources */,
 				329882581A017C11005C184A /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3298825E1A017C12005C184A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,23 +256,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3298825C1A017C12005C184A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				329882671A017C12005C184A /* MatchismoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		329882621A017C12005C184A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 329882461A017C11005C184A /* Matchismon 2 */;
-			targetProxy = 329882611A017C12005C184A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		329882541A017C11005C184A /* Main.storyboard */ = {
@@ -415,6 +349,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -431,7 +366,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CrittercismSDK",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Matchismo 2";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -447,42 +382,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CrittercismSDK",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Matchismo 2";
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		3298826E1A017C12005C184A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MatchismoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matchismo.app/Matchismo";
-			};
-			name = Debug;
-		};
-		3298826F1A017C12005C184A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MatchismoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matchismo.app/Matchismo";
 			};
 			name = Release;
 		};
@@ -498,20 +399,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3298826A1A017C12005C184A /* Build configuration list for PBXNativeTarget "Matchismon 2" */ = {
+		3298826A1A017C12005C184A /* Build configuration list for PBXNativeTarget "Matchismo 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3298826B1A017C12005C184A /* Debug */,
 				3298826C1A017C12005C184A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3298826D1A017C12005C184A /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3298826E1A017C12005C184A /* Debug */,
-				3298826F1A017C12005C184A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -45,7 +45,7 @@
 {
     Card *randomCard;
     
-    NSLog(@"Deck has %lu cards", (unsigned long)[self.cards count]);
+    //NSLog(@"Deck has %lu cards", (unsigned long)[self.cards count]);
     
     if ([self.cards count]) {
         unsigned index = arc4random() % [self.cards count];

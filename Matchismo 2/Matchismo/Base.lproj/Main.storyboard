@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -58,17 +58,6 @@
                                 </state>
                                 <connections>
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VUF-lg-K9x"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlV-T7-MbR">
-                                <rect key="frame" x="16" y="128" width="64" height="96"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" backgroundImage="cardback">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IJX-JD-sav"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P65-Z0-hqg">
@@ -148,12 +137,6 @@
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="E8D-CU-ILg"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flips: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNQ-HN-F10">
-                                <rect key="frame" x="16" y="527" width="283" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byl-gu-laD">
                                 <rect key="frame" x="16" y="345" width="64" height="96"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -198,11 +181,44 @@
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LYq-c2-NRe"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlV-T7-MbR">
+                                <rect key="frame" x="16" y="128" width="64" height="96"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IJX-JD-sav"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score : 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMX-mI-RQS">
+                                <rect key="frame" x="16" y="527" width="288" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="flipsLabel" destination="dNQ-HN-F10" id="aNd-TS-Dkt"/>
+                        <outlet property="scoreLabel" destination="OMX-mI-RQS" id="8D0-cc-HmN"/>
+                        <outletCollection property="cardButtons" destination="Ptb-75-NbA" id="XXj-Qr-iAD"/>
+                        <outletCollection property="cardButtons" destination="mAG-xk-usO" id="5uI-jE-pSH"/>
+                        <outletCollection property="cardButtons" destination="jiP-W9-YTW" id="4yq-bt-pLi"/>
+                        <outletCollection property="cardButtons" destination="q7G-7B-PbE" id="V3D-5t-gQx"/>
+                        <outletCollection property="cardButtons" destination="aR0-4g-e9r" id="dCX-dv-cDA"/>
+                        <outletCollection property="cardButtons" destination="6f5-RF-5Tp" id="l2I-Xq-CKg"/>
+                        <outletCollection property="cardButtons" destination="P65-Z0-hqg" id="7sD-NZ-GrQ"/>
+                        <outletCollection property="cardButtons" destination="nlV-T7-MbR" id="eXo-uj-psu"/>
+                        <outletCollection property="cardButtons" destination="Nsv-2w-aXJ" id="a0J-BA-KRz"/>
+                        <outletCollection property="cardButtons" destination="KQb-z2-u6L" id="bji-4s-kjO"/>
+                        <outletCollection property="cardButtons" destination="l3V-RH-lnh" id="LH4-SE-eMw"/>
+                        <outletCollection property="cardButtons" destination="U8P-IV-Na7" id="VGK-ix-Ivb"/>
+                        <outletCollection property="cardButtons" destination="uCw-d1-rXe" id="zbI-7W-3mL"/>
+                        <outletCollection property="cardButtons" destination="lIh-KE-4jd" id="ieS-RZ-DV2"/>
+                        <outletCollection property="cardButtons" destination="1YA-oW-zWy" id="cCQ-CQ-KuT"/>
+                        <outletCollection property="cardButtons" destination="byl-gu-laD" id="bFK-Ag-z2c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

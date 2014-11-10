@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B21188419E5929100329747 /* CustomSlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21188319E5929100329747 /* CustomSlidingViewController.swift */; };
+		5B258B3719CF176100CE4059 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B258B3619CF176100CE4059 /* MainViewController.swift */; };
+		5B35693F19CEE728008C900F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35693E19CEE728008C900F /* AppDelegate.swift */; };
+		5B35694119CEE728008C900F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35694019CEE728008C900F /* ViewController.swift */; };
+		5B35694419CEE728008C900F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B35694219CEE728008C900F /* Main.storyboard */; };
+		5B35694619CEE728008C900F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B35694519CEE728008C900F /* Images.xcassets */; };
+		5B35694919CEE728008C900F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B35694719CEE728008C900F /* LaunchScreen.xib */; };
+		5B35695519CEE728008C900F /* DashPressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B35695419CEE728008C900F /* DashPressTests.swift */; };
+		5B35698619CEEBE6008C900F /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B35696519CEEBE6008C900F /* ECPercentDrivenInteractiveTransition.m */; };
+		5B35698719CEEBE6008C900F /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B35696719CEEBE6008C900F /* ECSlidingAnimationController.m */; };
+		5B35698819CEEBE6008C900F /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B35696A19CEEBE6008C900F /* ECSlidingInteractiveTransition.m */; };
+		5B35698919CEEBE6008C900F /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B35696C19CEEBE6008C900F /* ECSlidingSegue.m */; };
+		5B35698A19CEEBE6008C900F /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B35696E19CEEBE6008C900F /* ECSlidingViewController.m */; };
+		5B35699F19CEEBE6008C900F /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B35698519CEEBE6008C900F /* UIViewController+ECSlidingViewController.m */; };
+		5BADD26F19D326D30047D49D /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BADD26E19D326D30047D49D /* DashboardTableViewCell.swift */; };
+		5BADD29119D330730047D49D /* DSLCalendarDayCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADD27319D330730047D49D /* DSLCalendarDayCalloutView.m */; };
+		5BADD29219D330730047D49D /* DSLCalendarDayCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD27419D330730047D49D /* DSLCalendarDayCalloutView.xib */; };
+		5BADD29319D330730047D49D /* DSLCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADD27619D330730047D49D /* DSLCalendarDayView.m */; };
+		5BADD29419D330730047D49D /* DSLCalendarMonthSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADD27819D330730047D49D /* DSLCalendarMonthSelectorView.m */; };
+		5BADD29519D330730047D49D /* DSLCalendarMonthSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD27919D330730047D49D /* DSLCalendarMonthSelectorView.xib */; };
+		5BADD29619D330730047D49D /* DSLCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADD27B19D330730047D49D /* DSLCalendarMonthView.m */; };
+		5BADD29719D330730047D49D /* DSLCalendarRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADD27D19D330730047D49D /* DSLCalendarRange.m */; };
+		5BADD29819D330730047D49D /* DSLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADD27F19D330730047D49D /* DSLCalendarView.m */; };
+		5BADD29919D330730047D49D /* DSLCalendar-nextMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD28119D330730047D49D /* DSLCalendar-nextMonth.png */; };
+		5BADD29A19D330730047D49D /* DSLCalendar-nextMonth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD28219D330730047D49D /* DSLCalendar-nextMonth@2x.png */; };
+		5BADD29B19D330730047D49D /* DSLCalendar-previousMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD28319D330730047D49D /* DSLCalendar-previousMonth.png */; };
+		5BADD29C19D330730047D49D /* DSLCalendar-previousMonth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD28419D330730047D49D /* DSLCalendar-previousMonth@2x.png */; };
+		5BADD29D19D330730047D49D /* DSLCalendarDayCallout.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD28519D330730047D49D /* DSLCalendarDayCallout.png */; };
+		5BADD29E19D330730047D49D /* DSLCalendarDayCallout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD28619D330730047D49D /* DSLCalendarDayCallout@2x.png */; };
+		5BADD2A719D330730047D49D /* NSDate+DSLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BADD29019D330730047D49D /* NSDate+DSLCalendarView.m */; };
+		5BADD2B019D3350B0047D49D /* DSLCalendarDaySelection-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD2A819D3350B0047D49D /* DSLCalendarDaySelection-left.png */; };
+		5BADD2B119D3350B0047D49D /* DSLCalendarDaySelection-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD2A919D3350B0047D49D /* DSLCalendarDaySelection-left@2x.png */; };
+		5BADD2B219D3350B0047D49D /* DSLCalendarDaySelection-middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD2AA19D3350B0047D49D /* DSLCalendarDaySelection-middle.png */; };
+		5BADD2B319D3350B0047D49D /* DSLCalendarDaySelection-middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD2AB19D3350B0047D49D /* DSLCalendarDaySelection-middle@2x.png */; };
+		5BADD2B419D3350B0047D49D /* DSLCalendarDaySelection-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD2AC19D3350B0047D49D /* DSLCalendarDaySelection-right.png */; };
+		5BADD2B519D3350B0047D49D /* DSLCalendarDaySelection-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD2AD19D3350B0047D49D /* DSLCalendarDaySelection-right@2x.png */; };
+		5BADD2B619D3350B0047D49D /* DSLCalendarDaySelection.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD2AE19D3350B0047D49D /* DSLCalendarDaySelection.png */; };
+		5BADD2B719D3350B0047D49D /* DSLCalendarDaySelection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BADD2AF19D3350B0047D49D /* DSLCalendarDaySelection@2x.png */; };
+		5BBB5C8619E31532003A803E /* UINavigationController+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB5C8519E31532003A803E /* UINavigationController+Orientation.m */; };
+		5BF1C5B019D1C3EA003055C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1C5AF19D1C3EA003055C6 /* LoginViewController.swift */; };
+		5BF1C5B219D1CCAE003055C6 /* LoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1C5B119D1CCAE003055C6 /* LoginTableViewCell.swift */; };
+		5BF1C5B419D1D959003055C6 /* SalesFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1C5B319D1D959003055C6 /* SalesFeedTableViewCell.swift */; };
+		5BF1C5B619D1DC2E003055C6 /* SalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1C5B519D1DC2E003055C6 /* SalesViewController.swift */; };
+		5BF1C5BA19D1F130003055C6 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1C5B919D1F130003055C6 /* DashboardViewController.swift */; };
+		C63F221A19E17B8B00FAD4ED /* ScrollHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F221919E17B8B00FAD4ED /* ScrollHeaderViewController.swift */; };
+		C63F221D19E17CCF00FAD4ED /* DashboardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F221C19E17CCF00FAD4ED /* DashboardDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B35694F19CEE728008C900F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B35693119CEE727008C900F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B35693819CEE728008C900F;
+			remoteInfo = DashPress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B21188319E5929100329747 /* CustomSlidingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSlidingViewController.swift; sourceTree = "<group>"; };
+		5B258B3619CF176100CE4059 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5B35693919CEE728008C900F /* DashPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DashPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B35693D19CEE728008C900F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B35693E19CEE728008C900F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B35694019CEE728008C900F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B35694319CEE728008C900F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B35694519CEE728008C900F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B35694819CEE728008C900F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5B35694E19CEE728008C900F /* DashPressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashPressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B35695319CEE728008C900F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B35695419CEE728008C900F /* DashPressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashPressTests.swift; sourceTree = "<group>"; };
+		5B35696019CEE7DB008C900F /* DashPress-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DashPress-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B35696419CEEBE6008C900F /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		5B35696519CEEBE6008C900F /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		5B35696619CEEBE6008C900F /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		5B35696719CEEBE6008C900F /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingAnimationController.m; sourceTree = "<group>"; };
+		5B35696819CEEBE6008C900F /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingConstants.h; sourceTree = "<group>"; };
+		5B35696919CEEBE6008C900F /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		5B35696A19CEEBE6008C900F /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
+		5B35696B19CEEBE6008C900F /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingSegue.h; sourceTree = "<group>"; };
+		5B35696C19CEEBE6008C900F /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingSegue.m; sourceTree = "<group>"; };
+		5B35696D19CEEBE6008C900F /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		5B35696E19CEEBE6008C900F /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		5B35698419CEEBE6008C900F /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
+		5B35698519CEEBE6008C900F /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
+		5BADD26E19D326D30047D49D /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		5BADD27219D330730047D49D /* DSLCalendarDayCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarDayCalloutView.h; sourceTree = "<group>"; };
+		5BADD27319D330730047D49D /* DSLCalendarDayCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarDayCalloutView.m; sourceTree = "<group>"; };
+		5BADD27419D330730047D49D /* DSLCalendarDayCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSLCalendarDayCalloutView.xib; sourceTree = "<group>"; };
+		5BADD27519D330730047D49D /* DSLCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarDayView.h; sourceTree = "<group>"; };
+		5BADD27619D330730047D49D /* DSLCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarDayView.m; sourceTree = "<group>"; };
+		5BADD27719D330730047D49D /* DSLCalendarMonthSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarMonthSelectorView.h; sourceTree = "<group>"; };
+		5BADD27819D330730047D49D /* DSLCalendarMonthSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarMonthSelectorView.m; sourceTree = "<group>"; };
+		5BADD27919D330730047D49D /* DSLCalendarMonthSelectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSLCalendarMonthSelectorView.xib; sourceTree = "<group>"; };
+		5BADD27A19D330730047D49D /* DSLCalendarMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarMonthView.h; sourceTree = "<group>"; };
+		5BADD27B19D330730047D49D /* DSLCalendarMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarMonthView.m; sourceTree = "<group>"; };
+		5BADD27C19D330730047D49D /* DSLCalendarRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarRange.h; sourceTree = "<group>"; };
+		5BADD27D19D330730047D49D /* DSLCalendarRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarRange.m; sourceTree = "<group>"; };
+		5BADD27E19D330730047D49D /* DSLCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarView.h; sourceTree = "<group>"; };
+		5BADD27F19D330730047D49D /* DSLCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarView.m; sourceTree = "<group>"; };
+		5BADD28119D330730047D49D /* DSLCalendar-nextMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendar-nextMonth.png"; sourceTree = "<group>"; };
+		5BADD28219D330730047D49D /* DSLCalendar-nextMonth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendar-nextMonth@2x.png"; sourceTree = "<group>"; };
+		5BADD28319D330730047D49D /* DSLCalendar-previousMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendar-previousMonth.png"; sourceTree = "<group>"; };
+		5BADD28419D330730047D49D /* DSLCalendar-previousMonth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendar-previousMonth@2x.png"; sourceTree = "<group>"; };
+		5BADD28519D330730047D49D /* DSLCalendarDayCallout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DSLCalendarDayCallout.png; sourceTree = "<group>"; };
+		5BADD28619D330730047D49D /* DSLCalendarDayCallout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDayCallout@2x.png"; sourceTree = "<group>"; };
+		5BADD28F19D330730047D49D /* NSDate+DSLCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DSLCalendarView.h"; sourceTree = "<group>"; };
+		5BADD29019D330730047D49D /* NSDate+DSLCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DSLCalendarView.m"; sourceTree = "<group>"; };
+		5BADD2A819D3350B0047D49D /* DSLCalendarDaySelection-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection-left.png"; sourceTree = "<group>"; };
+		5BADD2A919D3350B0047D49D /* DSLCalendarDaySelection-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection-left@2x.png"; sourceTree = "<group>"; };
+		5BADD2AA19D3350B0047D49D /* DSLCalendarDaySelection-middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection-middle.png"; sourceTree = "<group>"; };
+		5BADD2AB19D3350B0047D49D /* DSLCalendarDaySelection-middle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection-middle@2x.png"; sourceTree = "<group>"; };
+		5BADD2AC19D3350B0047D49D /* DSLCalendarDaySelection-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection-right.png"; sourceTree = "<group>"; };
+		5BADD2AD19D3350B0047D49D /* DSLCalendarDaySelection-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection-right@2x.png"; sourceTree = "<group>"; };
+		5BADD2AE19D3350B0047D49D /* DSLCalendarDaySelection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DSLCalendarDaySelection.png; sourceTree = "<group>"; };
+		5BADD2AF19D3350B0047D49D /* DSLCalendarDaySelection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection@2x.png"; sourceTree = "<group>"; };
+		5BBB5C8419E31532003A803E /* UINavigationController+Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Orientation.h"; sourceTree = "<group>"; };
+		5BBB5C8519E31532003A803E /* UINavigationController+Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Orientation.m"; sourceTree = "<group>"; };
+		5BF1C5AF19D1C3EA003055C6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5BF1C5B119D1CCAE003055C6 /* LoginTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewCell.swift; sourceTree = "<group>"; };
+		5BF1C5B319D1D959003055C6 /* SalesFeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesFeedTableViewCell.swift; sourceTree = "<group>"; };
+		5BF1C5B519D1DC2E003055C6 /* SalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesViewController.swift; sourceTree = "<group>"; };
+		5BF1C5B919D1F130003055C6 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		C63F221919E17B8B00FAD4ED /* ScrollHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollHeaderViewController.swift; sourceTree = "<group>"; };
+		C63F221C19E17CCF00FAD4ED /* DashboardDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B35693619CEE728008C900F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B35694B19CEE728008C900F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B35693019CEE727008C900F = {
+			isa = PBXGroup;
+			children = (
+				5B35693B19CEE728008C900F /* DashPress */,
+				5B35695119CEE728008C900F /* DashPressTests */,
+				5B35693A19CEE728008C900F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B35693A19CEE728008C900F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B35693919CEE728008C900F /* DashPress.app */,
+				5B35694E19CEE728008C900F /* DashPressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B35693B19CEE728008C900F /* DashPress */ = {
+			isa = PBXGroup;
+			children = (
+				5BADD27119D330730047D49D /* DSLCalendarView */,
+				5B35696319CEEBE6008C900F /* ECSlidingViewController */,
+				5B35693E19CEE728008C900F /* AppDelegate.swift */,
+				5B21188319E5929100329747 /* CustomSlidingViewController.swift */,
+				5B35694019CEE728008C900F /* ViewController.swift */,
+				5B258B3619CF176100CE4059 /* MainViewController.swift */,
+				5BF1C5AF19D1C3EA003055C6 /* LoginViewController.swift */,
+				5BF1C5B519D1DC2E003055C6 /* SalesViewController.swift */,
+				C63F221B19E17C9D00FAD4ED /* Dashboard */,
+				5BADD27019D327C20047D49D /* TableCells */,
+				5B35694219CEE728008C900F /* Main.storyboard */,
+				5B35694519CEE728008C900F /* Images.xcassets */,
+				5B35696019CEE7DB008C900F /* DashPress-Bridging-Header.h */,
+				5B35694719CEE728008C900F /* LaunchScreen.xib */,
+				5B35693C19CEE728008C900F /* Supporting Files */,
+				5BBB5C8419E31532003A803E /* UINavigationController+Orientation.h */,
+				5BBB5C8519E31532003A803E /* UINavigationController+Orientation.m */,
+			);
+			path = DashPress;
+			sourceTree = "<group>";
+		};
+		5B35693C19CEE728008C900F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B35693D19CEE728008C900F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B35695119CEE728008C900F /* DashPressTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B35695419CEE728008C900F /* DashPressTests.swift */,
+				5B35695219CEE728008C900F /* Supporting Files */,
+			);
+			path = DashPressTests;
+			sourceTree = "<group>";
+		};
+		5B35695219CEE728008C900F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B35695319CEE728008C900F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B35696319CEEBE6008C900F /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5B35696419CEEBE6008C900F /* ECPercentDrivenInteractiveTransition.h */,
+				5B35696519CEEBE6008C900F /* ECPercentDrivenInteractiveTransition.m */,
+				5B35696619CEEBE6008C900F /* ECSlidingAnimationController.h */,
+				5B35696719CEEBE6008C900F /* ECSlidingAnimationController.m */,
+				5B35696819CEEBE6008C900F /* ECSlidingConstants.h */,
+				5B35696919CEEBE6008C900F /* ECSlidingInteractiveTransition.h */,
+				5B35696A19CEEBE6008C900F /* ECSlidingInteractiveTransition.m */,
+				5B35696B19CEEBE6008C900F /* ECSlidingSegue.h */,
+				5B35696C19CEEBE6008C900F /* ECSlidingSegue.m */,
+				5B35696D19CEEBE6008C900F /* ECSlidingViewController.h */,
+				5B35696E19CEEBE6008C900F /* ECSlidingViewController.m */,
+				5B35698419CEEBE6008C900F /* UIViewController+ECSlidingViewController.h */,
+				5B35698519CEEBE6008C900F /* UIViewController+ECSlidingViewController.m */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		5BADD27019D327C20047D49D /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1C5B119D1CCAE003055C6 /* LoginTableViewCell.swift */,
+				5BF1C5B319D1D959003055C6 /* SalesFeedTableViewCell.swift */,
+				5BADD26E19D326D30047D49D /* DashboardTableViewCell.swift */,
+			);
+			name = TableCells;
+			sourceTree = "<group>";
+		};
+		5BADD27119D330730047D49D /* DSLCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				5BADD27219D330730047D49D /* DSLCalendarDayCalloutView.h */,
+				5BADD27319D330730047D49D /* DSLCalendarDayCalloutView.m */,
+				5BADD27419D330730047D49D /* DSLCalendarDayCalloutView.xib */,
+				5BADD27519D330730047D49D /* DSLCalendarDayView.h */,
+				5BADD27619D330730047D49D /* DSLCalendarDayView.m */,
+				5BADD27719D330730047D49D /* DSLCalendarMonthSelectorView.h */,
+				5BADD27819D330730047D49D /* DSLCalendarMonthSelectorView.m */,
+				5BADD27919D330730047D49D /* DSLCalendarMonthSelectorView.xib */,
+				5BADD27A19D330730047D49D /* DSLCalendarMonthView.h */,
+				5BADD27B19D330730047D49D /* DSLCalendarMonthView.m */,
+				5BADD27C19D330730047D49D /* DSLCalendarRange.h */,
+				5BADD27D19D330730047D49D /* DSLCalendarRange.m */,
+				5BADD27E19D330730047D49D /* DSLCalendarView.h */,
+				5BADD27F19D330730047D49D /* DSLCalendarView.m */,
+				5BADD28019D330730047D49D /* Images */,
+				5BADD28F19D330730047D49D /* NSDate+DSLCalendarView.h */,
+				5BADD29019D330730047D49D /* NSDate+DSLCalendarView.m */,
+			);
+			name = DSLCalendarView;
+			path = ECSlidingViewController/DSLCalendarView;
+			sourceTree = "<group>";
+		};
+		5BADD28019D330730047D49D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5BADD28119D330730047D49D /* DSLCalendar-nextMonth.png */,
+				5BADD28219D330730047D49D /* DSLCalendar-nextMonth@2x.png */,
+				5BADD28319D330730047D49D /* DSLCalendar-previousMonth.png */,
+				5BADD28419D330730047D49D /* DSLCalendar-previousMonth@2x.png */,
+				5BADD28519D330730047D49D /* DSLCalendarDayCallout.png */,
+				5BADD28619D330730047D49D /* DSLCalendarDayCallout@2x.png */,
+				5BADD2A819D3350B0047D49D /* DSLCalendarDaySelection-left.png */,
+				5BADD2A919D3350B0047D49D /* DSLCalendarDaySelection-left@2x.png */,
+				5BADD2AA19D3350B0047D49D /* DSLCalendarDaySelection-middle.png */,
+				5BADD2AB19D3350B0047D49D /* DSLCalendarDaySelection-middle@2x.png */,
+				5BADD2AC19D3350B0047D49D /* DSLCalendarDaySelection-right.png */,
+				5BADD2AD19D3350B0047D49D /* DSLCalendarDaySelection-right@2x.png */,
+				5BADD2AE19D3350B0047D49D /* DSLCalendarDaySelection.png */,
+				5BADD2AF19D3350B0047D49D /* DSLCalendarDaySelection@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C63F221B19E17C9D00FAD4ED /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1C5B919D1F130003055C6 /* DashboardViewController.swift */,
+				C63F221919E17B8B00FAD4ED /* ScrollHeaderViewController.swift */,
+				C63F221C19E17CCF00FAD4ED /* DashboardDetailViewController.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B35693819CEE728008C900F /* DashPress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B35695819CEE728008C900F /* Build configuration list for PBXNativeTarget "DashPress" */;
+			buildPhases = (
+				5B35693519CEE728008C900F /* Sources */,
+				5B35693619CEE728008C900F /* Frameworks */,
+				5B35693719CEE728008C900F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DashPress;
+			productName = DashPress;
+			productReference = 5B35693919CEE728008C900F /* DashPress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B35694D19CEE728008C900F /* DashPressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B35695B19CEE728008C900F /* Build configuration list for PBXNativeTarget "DashPressTests" */;
+			buildPhases = (
+				5B35694A19CEE728008C900F /* Sources */,
+				5B35694B19CEE728008C900F /* Frameworks */,
+				5B35694C19CEE728008C900F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B35695019CEE728008C900F /* PBXTargetDependency */,
+			);
+			name = DashPressTests;
+			productName = DashPressTests;
+			productReference = 5B35694E19CEE728008C900F /* DashPressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B35693119CEE727008C900F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = MyAppTemplates;
+				TargetAttributes = {
+					5B35693819CEE728008C900F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5B35694D19CEE728008C900F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5B35693819CEE728008C900F;
+					};
+				};
+			};
+			buildConfigurationList = 5B35693419CEE727008C900F /* Build configuration list for PBXProject "DashPress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B35693019CEE727008C900F;
+			productRefGroup = 5B35693A19CEE728008C900F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B35693819CEE728008C900F /* DashPress */,
+				5B35694D19CEE728008C900F /* DashPressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B35693719CEE728008C900F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BADD2B419D3350B0047D49D /* DSLCalendarDaySelection-right.png in Resources */,
+				5BADD29519D330730047D49D /* DSLCalendarMonthSelectorView.xib in Resources */,
+				5BADD29D19D330730047D49D /* DSLCalendarDayCallout.png in Resources */,
+				5BADD29219D330730047D49D /* DSLCalendarDayCalloutView.xib in Resources */,
+				5BADD29A19D330730047D49D /* DSLCalendar-nextMonth@2x.png in Resources */,
+				5BADD2B119D3350B0047D49D /* DSLCalendarDaySelection-left@2x.png in Resources */,
+				5B35694419CEE728008C900F /* Main.storyboard in Resources */,
+				5BADD2B619D3350B0047D49D /* DSLCalendarDaySelection.png in Resources */,
+				5BADD2B219D3350B0047D49D /* DSLCalendarDaySelection-middle.png in Resources */,
+				5BADD29E19D330730047D49D /* DSLCalendarDayCallout@2x.png in Resources */,
+				5BADD2B719D3350B0047D49D /* DSLCalendarDaySelection@2x.png in Resources */,
+				5BADD29C19D330730047D49D /* DSLCalendar-previousMonth@2x.png in Resources */,
+				5BADD29919D330730047D49D /* DSLCalendar-nextMonth.png in Resources */,
+				5BADD2B019D3350B0047D49D /* DSLCalendarDaySelection-left.png in Resources */,
+				5BADD29B19D330730047D49D /* DSLCalendar-previousMonth.png in Resources */,
+				5BADD2B319D3350B0047D49D /* DSLCalendarDaySelection-middle@2x.png in Resources */,
+				5BADD2B519D3350B0047D49D /* DSLCalendarDaySelection-right@2x.png in Resources */,
+				5B35694919CEE728008C900F /* LaunchScreen.xib in Resources */,
+				5B35694619CEE728008C900F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B35694C19CEE728008C900F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B35693519CEE728008C900F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BADD29119D330730047D49D /* DSLCalendarDayCalloutView.m in Sources */,
+				5BF1C5B619D1DC2E003055C6 /* SalesViewController.swift in Sources */,
+				5B35698819CEEBE6008C900F /* ECSlidingInteractiveTransition.m in Sources */,
+				5BADD29819D330730047D49D /* DSLCalendarView.m in Sources */,
+				5BADD26F19D326D30047D49D /* DashboardTableViewCell.swift in Sources */,
+				5B35694119CEE728008C900F /* ViewController.swift in Sources */,
+				C63F221A19E17B8B00FAD4ED /* ScrollHeaderViewController.swift in Sources */,
+				5B35698A19CEEBE6008C900F /* ECSlidingViewController.m in Sources */,
+				5BADD29419D330730047D49D /* DSLCalendarMonthSelectorView.m in Sources */,
+				5BADD29719D330730047D49D /* DSLCalendarRange.m in Sources */,
+				5B21188419E5929100329747 /* CustomSlidingViewController.swift in Sources */,
+				5BADD2A719D330730047D49D /* NSDate+DSLCalendarView.m in Sources */,
+				5BADD29619D330730047D49D /* DSLCalendarMonthView.m in Sources */,
+				5B35698919CEEBE6008C900F /* ECSlidingSegue.m in Sources */,
+				5BBB5C8619E31532003A803E /* UINavigationController+Orientation.m in Sources */,
+				5B35693F19CEE728008C900F /* AppDelegate.swift in Sources */,
+				5B35698619CEEBE6008C900F /* ECPercentDrivenInteractiveTransition.m in Sources */,
+				5BF1C5BA19D1F130003055C6 /* DashboardViewController.swift in Sources */,
+				C63F221D19E17CCF00FAD4ED /* DashboardDetailViewController.swift in Sources */,
+				5BF1C5B419D1D959003055C6 /* SalesFeedTableViewCell.swift in Sources */,
+				5BADD29319D330730047D49D /* DSLCalendarDayView.m in Sources */,
+				5BF1C5B219D1CCAE003055C6 /* LoginTableViewCell.swift in Sources */,
+				5B258B3719CF176100CE4059 /* MainViewController.swift in Sources */,
+				5B35699F19CEEBE6008C900F /* UIViewController+ECSlidingViewController.m in Sources */,
+				5BF1C5B019D1C3EA003055C6 /* LoginViewController.swift in Sources */,
+				5B35698719CEEBE6008C900F /* ECSlidingAnimationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B35694A19CEE728008C900F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B35695519CEE728008C900F /* DashPressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B35695019CEE728008C900F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B35693819CEE728008C900F /* DashPress */;
+			targetProxy = 5B35694F19CEE728008C900F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B35694219CEE728008C900F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B35694319CEE728008C900F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B35694719CEE728008C900F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B35694819CEE728008C900F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B35695619CEE728008C900F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B35695719CEE728008C900F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B35695919CEE728008C900F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DashPress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DashPress/DashPress-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		5B35695A19CEE728008C900F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DashPress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DashPress/DashPress-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		5B35695C19CEE728008C900F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DashPressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DashPress.app/DashPress";
+			};
+			name = Debug;
+		};
+		5B35695D19CEE728008C900F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DashPressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DashPress.app/DashPress";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B35693419CEE727008C900F /* Build configuration list for PBXProject "DashPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B35695619CEE728008C900F /* Debug */,
+				5B35695719CEE728008C900F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B35695819CEE728008C900F /* Build configuration list for PBXNativeTarget "DashPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B35695919CEE728008C900F /* Debug */,
+				5B35695A19CEE728008C900F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B35695B19CEE728008C900F /* Build configuration list for PBXNativeTarget "DashPressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B35695C19CEE728008C900F /* Debug */,
+				5B35695D19CEE728008C900F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B35693119CEE727008C900F /* Project object */;
+}
